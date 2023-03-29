@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.27),
+            rgba(0, 0, 0, 0.0)), url("../img/bgg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+header p {
+    letter-spacing: 3px;
+    font-family: 'Montserrat';
+    color: rgb(12, 12, 12);
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* logo name styling */
+
+.logoname {
+    margin-top: 371px;
+    margin-left: 668px;
+    position: inherit;
+    font-size: 50px;
+    margin-bottom: -103px;
+    display: inline-block;
+}
+
+.logoname p {
+
+    color: #f3fdff;
+    text-shadow: black;
+
+}
+
+.directed,
+.steven {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+
+
+.steven {
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 5px;
+    letter-spacing: 0.7px;
+}
+
+.saving {
+    font-family: 'Nexa Rust Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 1px;
+    margin-left: -80px;
+}
+
+.ryan {
+    font-family: 'Nexa Rust Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 98px;
+    margin-top: -55px;
+    margin-left: -77px;
+    letter-spacing: 13px;
+}
+
+
+
+main a {
+    text-decoration: none;
+
+}
+
+
+/* footer editing */
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Oswald';
+    color: #f3fdff;
+    display: inline;
+    text-align: center;
+}
+
+.small {
+    font-size: 11px;
+}
+
+footer .fimg1 {
+    height: 50px;
+    width: auto;
+
+    margin-left: 464px;
+    margin-top: -116px;
+}
+
+
+.fimg2 {
+    height: 50px;
+    width: auto;
+    margin-left: 221px;
+    margin-top: -45px;
+    float: left;
+}
