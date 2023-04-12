@@ -1,0 +1,199 @@
+<!-- Name: Ansh Mukeshbhai Paghadal
+Student No. 200544015
+Final project -->
+
+
+
+
+<!-- we are using html5 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- head  -->
+
+<head>
+    <!-- meta and title  -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="description" content="Buy now">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Buy Now</title>
+
+
+
+    <!-- google fonts  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+
+
+
+    <!-- adding external css and javascript file -->
+
+    <link rel="stylesheet" href="./CSS/productpage.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./JS/script.js"></script>
+</head>
+
+<!-- starting of the page  -->
+
+<body>
+
+    <!-- header and nav section  -->
+
+    <header>
+
+        <nav>
+            <div class="container flex header">
+                <div class="logo">
+                    <a href="#" class="logo"><img src="./img/logo.png" alt="rubik's logo"></a>
+                </div>
+                <div class="linkss">
+
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./About.html">About</a></li>
+                        <li><a href="./productpage.html">Product</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main heading of the page  -->
+    <section class="heading">
+        <div class="container">
+            <h1>Around 50</h1>
+            <h1>Types of Rubik's cube available nowadays.</h1>
+
+            <p>However, we only know about some popular cubes.</p>
+            <p class="welcomee">Most of cubes are in "Cube" shape, but it comes with irregular shapes too such as the
+                Mirror Cube, Pyraminx, and Megaminx and so on.</p>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- main content  -->
+    <main>
+        <section class="listing">
+
+
+            <!-- different divs and used display flex  -->
+            <div class="container pricing">
+                <div class="cube">
+                    <img src="./img/2by2.jpg" alt="Cube 1">
+                    <h2>Rubik’s Apprentice 2x2</h2>
+                    <p>$15</p>
+                    <a href="#" class="btn" id="btn1" onclick="changeText(1)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/3by3.jpg" alt="Cube 2">
+                    <h2>Rubik's 3x3</h2>
+                    <p>$12</p>
+                    <a href="#" class="btn" id="btn2" onclick="changeText(2)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/4by4.jpg" alt="Cube 3">
+                    <h2>Rubik’s Master 4x4</h2>
+                    <p>$18</p>
+                    <a href="#" class="btn" id="btn3" onclick="changeText(3)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/5by5.jpg" alt="Cube 4">
+                    <h2>Rubik’s Professor 5x5</h2>
+                    <p>$20</p>
+                    <a href="#" class="btn" id="btn4" onclick="changeText(4)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/Rubikedege.jpg" alt="Cube 5">
+                    <h2>Rubik's Edege</h2>
+                    <p>$16</p>
+                    <a href="#" class="btn" id="btn5" onclick="changeText(5)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/pyramid.jpg" alt="Cube 6">
+                    <h2>Pyramid</h2>
+                    <p>$22</p>
+                    <a href="#" class="btn" id="btn6" onclick="changeText(6)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/tower.jpg" alt="Cube 7">
+                    <h2>Rubik’s Tower</h2>
+                    <p>$25</p>
+                    <a href="#" class="btn" id="btn7" onclick="changeText(7)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/panthom.jpg" alt="Cube 8">
+                    <h2>Rubik's 3x3 Phantom</h2>
+                    <p>$28</p>
+                    <a href="#" class="btn" id="btn8" onclick="changeText(8)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/mirror.jpeg" alt="Cube 9">
+                    <h2>Mirror</h2>
+                    <p>$30</p>
+                    <a href="#" class="btn" id="btn9" onclick="changeText(9)">Add to cart</a>
+
+                </div>
+                <div class="cube">
+                    <img src="./img/monster.jpeg" alt="Cube 10">
+                    <h2>Monster</h2>
+                    <p>$35</p>
+                    <a href="#" class="btn" id="btn10" onclick="changeText(10)">Add to cart</a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+<!-- footer part  -->
+    <footer>
+
+        <div class="container flex">
+
+            <div class="col">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.twitter.com">Twitter</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Click Here to Subscribe <span class="triangle">&#9660;</span></h3>
+
+                <p>Get the latest news and updates.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <p class="credit">&copy; Rubik's Cube. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
