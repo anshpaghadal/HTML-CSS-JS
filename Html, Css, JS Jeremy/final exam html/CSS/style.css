@@ -156,6 +156,12 @@ input[type=submit],
     resize: vertical;
 }
 
+
+input[type=submit]{
+cursor: pointer;
+}
+
+
 ::placeholder {
     color: black;
 
